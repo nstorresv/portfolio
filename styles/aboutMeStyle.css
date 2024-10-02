@@ -1,0 +1,94 @@
+.aboutMe {
+    display: flex;
+    width: 60vw;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+    margin: 5rem auto;
+
+}
+
+
+.aboutMe h4 {
+    align-self: stretch;
+    text-align: center;
+}
+
+.smIcons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.smIcons img {
+    width: 2.5rem;
+    height: 2.5rem;
+    filter: saturate(0);
+    transition: 0.2s ease;
+}
+
+.smIcons img:hover {
+    filter: saturate(1);
+    transition: 0.2s ease;
+}
+
+#cvimg {
+    width: 2.8rem;
+    height: 2.7rem;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.contact .mainButton {
+    display: flex;
+    width: 14rem;
+    height: 2.875rem;
+    padding: 0.75rem 1.25rem;
+}
+
+iframe {
+    width: 80vw;
+    max-width: 1440px;
+    height: 800px;
+    margin: auto;
+    overflow: visible;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    overflow: visible;
+
+}
+
+.sectionTitle {
+    margin: 3rem auto 2rem;
+}
+
+.skillsWrap{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.skillsWrap div{
+    padding: 1rem;
+    width: 15rem;
+    background: var(--Gray-60, rgba(231, 229, 228, 0.05));
+  
+    /* shadow */
+    box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(9px);
+}
+
+.skillsWrap div p {
+    padding: 0 auto;
+}

@@ -1,0 +1,243 @@
+* {
+    margin: 0 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+a {
+    text-emphasis: none;
+}
+
+/* SLIDER STUFF*/
+  
+  /* arrows */
+  
+  .sliderNav  {
+    position: absolute;
+    height: 80vh;
+    width: 6vw;
+    top: 50%;
+    cursor: pointer;
+    transform: translateY(-50%);
+    color: var(--Blue-Blue-50);
+    padding: 40vh 2vw;
+    /*border: 1px solid aqua;*/
+  }
+  
+  .goRight {
+    right: 10px;
+
+  }
+  
+  .goLeft {
+    left: 10px;
+
+  }
+  
+  /*content*/
+  
+  .sliderSlide {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;  
+    position: relative;
+    margin: auto;
+    max-width: 1440px;
+  }
+  
+  .sliderSlide section{
+    display:flex;
+    min-height: 100%;
+    min-width: 100%;
+  }
+  .sliderSlidesCont {
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    height: 100%;
+    width: 100%;  
+  }
+  
+  .sliderWrapper {
+    position: relative;
+    width: 400vw;
+    height: 100%;
+    display: flex;
+    transition: 0.5s ease; 
+    justify-content: space-evenly;
+
+    /*border: 2px solid green;
+*/
+  }
+  
+
+  
+  .slider {
+    position: relative;
+    flex-direction: column;
+    height: 80vh;
+    
+  
+  }
+  
+  
+  
+  /*circles*/
+  
+  .slider-pagination {
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+  }
+  
+  .slider_pagination_btn {
+     display: inline-block;
+     padding: 6px;
+     cursor: pointer;
+     margin: 0px 20px;
+  
+     /* Override default button styles */
+     border: none;
+     outline: none;
+     background-color: transparent;
+  }
+  
+  /* Actual pagination circle */
+  .slider_pagination_btn:before {
+     content: '';
+     display: flex;
+     padding: 6px;
+     border-radius: 100%;
+     background-color: var(--Blue-Blue-600, rgba(14,45,75,1.00));
+     margin: 0 auto;
+  }
+  
+  .slider_pagination_btn:hover:before {
+     background-color: var(--Blue-Blue-500, rgba(27,66,103,1.00));
+  }
+  
+  
+  .slider_pagination_btn.slider_pagination_btn--sel:before {
+     background-color: var(--Blue-Blue-50, rgba(165,187,206,1.00))
+  }
+  
+  /*inside styles*/
+  
+  
+  .slideText ul {
+    flex: 1 0 0;
+    align-self: stretch;
+    margin-left: 15px;
+  }
+  
+  .slideText h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .slideAll {
+  
+      justify-content: center;
+      /* shadow */
+      box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.25);
+      height: 75vh;
+      width: 85vw;
+      margin: auto;
+      background-color: var(--Gray-60, rgba(231, 229, 228, 0.05)); 
+      backdrop-filter: blur(9px);
+      position:absolute;
+  
+      right: 7.5vw;
+
+   }
+  
+  .slideImg {
+      display: flex;
+      width: 80%;
+      height: 80%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 0.625rem;
+      background: var(--Gray-60, rgba(231, 229, 228, 0.05));
+      
+      /* shadow */
+      box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.25);
+  }
+  
+  .slideIn {
+      display: flex;
+      padding: 2rem;
+      justify-content: center;
+      align-items: center;
+      gap: 3rem;
+      flex-direction: row;
+      width: 100%;
+      height: 100%;
+  }
+  
+  .slideText {
+      display: flex;
+      width: 80%;
+      height: auto;
+      flex-direction: column;
+      justify-content: center;
+      align-items: start; 
+  }
+  
+  @media screen and (min-width: 1441px) {
+    .slideAll {
+      max-width: 100%;
+      right: 0;
+
+    }
+
+    .slideImg {
+      max-width: 40%;
+    }
+    .cardContainer {
+      width: 100%
+    }
+  }
+  
+  @media screen and (max-width: 769px) {
+    .slideIn {
+     flex-direction: column; 
+     padding: 1rem;
+      gap: 1rem;
+    }
+    
+    .slideImg {
+      width: 95%;
+      height: 95%;
+    }
+    
+    .slideImg img {
+      max-height: 100%;
+      max-width: 100%;
+    }
+    
+    .slideText .secButton {
+      margin: 1rem 0 1rem 0;
+    }
+    
+    .slideText h2 {
+      margin: 1rem 0;
+    }
+    
+    .slider {
+      height: 120vh;
+    }
+
+    .slideAll {
+      height: 100%;
+    }
+    
+  }
+
+  .buttonSlide {
+    margin: 1rem 0;
+  }

@@ -1,0 +1,80 @@
+
+  /*All Projects Style */
+
+  .allProj {
+    display: flex;
+    margin: auto;
+    gap: 2rem;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    max-width: 1440px;
+  }
+
+  .allRight .allLeft {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bigCard {
+    width: 33rem;
+    max-width: 85vw;
+    padding: 2rem;
+    gap: 1.5rem;
+    margin-top: 2rem;
+    height: 45rem;
+    /*border: 0.5px solid rgba(231,229,228,0.15);*/
+  }
+
+  .bigCardImg img {
+    max-height: 20rem;
+    max-width: 100%;
+
+  }
+
+  .bigCardImg {
+    height: auto;
+    padding: 2rem;
+    /*border: 0.5px solid rgba(231,229,228,0.15);*/
+  }
+
+  .bigCard h2 {
+  margin: 0 auto 1rem;
+  }
+  .allRight {
+    margin-top: 6rem;
+  }
+
+  @media screen and (max-width: 1025px){
+    .allRight {
+      margin-top: -2rem;
+    }
+  }
+
+  
+.contactMe {
+  width: 3rem;
+  height: 3rem;
+  background-color: var(--Green-Green-400, rgba(149,163,92,1.00));
+  border-radius: 50%;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 5;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+
+}
+
+.contactMe img {
+  width: 3rem;
+  padding: 10px;
+}
+
+.contactMe:hover {
+  background-color: var(--Green-Green-300,  rgba(168,182,111,1.00));
+}
+
+.contactMe:active {
+  background-color: var(--Green-Green-200, rgba(183,195,137,1.00));
+}
+

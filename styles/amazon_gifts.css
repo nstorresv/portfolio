@@ -1,0 +1,73 @@
+
+.accord{
+    margin:2rem 0;
+  }
+
+  .boxTitle{
+    display: flex;
+    border: 1px solid white;
+    padding: 1rem;
+    gap: 1rem;
+    justify-content: flex-start; 
+    flex-wrap: wrap;
+  }
+
+  .boxTitle .captions{
+    width: auto;
+    margin: 0;   
+  }
+
+  .boxTitle img{ 
+    height: 9rem;
+  }
+
+  .box{
+    display: flex;
+    flex-direction: column;
+    height: 3rem;
+    overflow: hidden;
+  }
+  .boxHead{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    border: solid 1px white;
+    min-height: 3rem;
+  }
+  .arrowDrop {
+    height: 20px;
+    cursor: pointer;
+    filter: invert(100%);
+    padding: 0;
+  }
+  
+  .boxContent {
+    margin: 0 1rem;
+  }
+  
+  #boxDrop, #boxDrop2, #boxDrop3, #boxDrop4, #boxDrop5, #boxDrop6, #boxDrop7, #boxDrop8, #boxDrop9 {
+    display: none;
+  }
+  
+  #boxDrop:checked + label > .box, #boxDrop2:checked + label > .box,
+  #boxDrop3:checked + label > .box, #boxDrop4:checked + label > .box, #boxDrop5:checked + label > .box, #boxDrop6:checked + label > .box,
+  #boxDrop7:checked + label > .box, #boxDrop8:checked + label > .box,#boxDrop9:checked + label > .box{
+    height: auto;
+  }
+  
+  #boxDrop:checked + label > .box .arrowDrop,
+  #boxDrop2:checked + label > .box .arrowDrop,
+  #boxDrop3:checked + label > .box .arrowDrop,
+  #boxDrop4:checked + label > .box .arrowDrop,
+  #boxDrop5:checked + label > .box .arrowDrop,
+  #boxDrop6:checked + label > .box .arrowDrop,
+  #boxDrop7:checked + label > .box .arrowDrop,
+  #boxDrop8:checked + label > .box .arrowDrop,
+  #boxDrop9:checked + label > .box .arrowDrop
+  {
+    transform: rotate(180deg);
+    transition: 0.3s;
+  }
+

@@ -1,0 +1,15 @@
+strong {
+    background-color: var(--Blue-Blue-600, rgba(14,45,75,1.00));
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+    display:inline-block;
+    text-align: center;
+    padding-top: 1.5rem;
+    margin-left: 1.5rem;
+
+  }
+
+  img {
+    max-width: 100%;
+  }

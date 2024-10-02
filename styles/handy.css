@@ -1,0 +1,154 @@
+strong {
+    background-color: var(--Blue-Blue-600, rgba(14,45,75,1.00));
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+    display:inline-block;
+    text-align: center;
+    padding-top: 1.5rem;
+    margin-left: 1.5rem;
+
+  }
+
+  .heuristicList{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .textImg{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .textImg p {
+    width: 75%;
+    min-width: 250px;
+  }
+
+  .textImg img {
+    width: 20%;
+    min-width: 80px;
+  }
+
+p {
+    margin: 1rem 0
+}
+
+
+  .accord{
+    margin:2rem 0;
+  }
+
+  .boxTitle{
+    display: flex;
+    border: 1px solid white;
+    padding: 1rem;
+    gap: 1rem;
+    justify-content: flex-start; 
+    flex-wrap: wrap;
+  }
+
+  .boxTitle .captions{
+    width: auto;
+    margin: 0;   
+  }
+
+  .boxTitle img{ 
+    height: 9rem;
+  }
+
+  .box{
+    display: flex;
+    flex-direction: column;
+    height: 3rem;
+    overflow: hidden;
+  }
+  .boxHead{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    border: solid 1px white;
+    min-height: 3rem;
+  }
+  .arrowDrop {
+    height: 20px;
+    cursor: pointer;
+    filter: invert(100%);
+    padding: 0;
+  }
+  
+  .boxContent {
+    margin: 0 1rem;
+  }
+  
+  #boxDrop, #boxDrop2, #boxDrop3, #boxDrop4, #boxDrop5, #boxDrop6, #boxDrop7, #boxDrop8, #boxDrop9 {
+    display: none;
+  }
+  
+  #boxDrop:checked + label > .box, #boxDrop2:checked + label > .box,
+  #boxDrop3:checked + label > .box, #boxDrop4:checked + label > .box, #boxDrop5:checked + label > .box, #boxDrop6:checked + label > .box,
+  #boxDrop7:checked + label > .box, #boxDrop8:checked + label > .box,#boxDrop9:checked + label > .box{
+    height: auto;
+  }
+  
+  #boxDrop:checked + label > .box .arrowDrop,
+  #boxDrop2:checked + label > .box .arrowDrop,
+  #boxDrop3:checked + label > .box .arrowDrop,
+  #boxDrop4:checked + label > .box .arrowDrop,
+  #boxDrop5:checked + label > .box .arrowDrop,
+  #boxDrop6:checked + label > .box .arrowDrop,
+  #boxDrop7:checked + label > .box .arrowDrop,
+  #boxDrop8:checked + label > .box .arrowDrop,
+  #boxDrop9:checked + label > .box .arrowDrop
+  {
+    transform: rotate(180deg);
+    transition: 0.3s;
+  }
+
+
+
+  .userJourney, .lookFeel{
+    display:flex;
+    flex-wrap: wrap;
+    gap:1rem;
+    align-items: start;
+    justify-content: center;
+  }
+
+  .userJourney img{
+    width: 28%;
+    min-width: 250px;
+    background-color: var(--Gray-60, rgba(231,229,228,0.05));
+    padding: 0.5rem;
+    height:fit-content;
+  }
+
+  .wires{
+    margin: 2rem 5%;
+    width: 90%;
+    max-width: 400px;
+  }
+
+  .lookFeel img{
+    margin: 1rem;
+    width: 90%;
+    max-width: 400px;
+  }
+  
+  .lookFeel div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .lookFeel figcaption p{
+    margin: 0 auto 1.5rem;
+  }
+
+  #prototype h2{
+    margin: 2rem auto 1.5rem;
+  }
