@@ -62,7 +62,7 @@ navElements[1].addEventListener('click', function() {
 
 var Autoplay = {
    timerId: null,
-   interval: 1000,
+   interval: 100,
 
    start: function() {
       this.timerId = setInterval(function() {
