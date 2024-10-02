@@ -85,7 +85,7 @@ iframe {
     background: var(--Gray-60, rgba(231, 229, 228, 0.05));
   
     /* shadow */
-    box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: inset 4px 4px 8px 0px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(9px);
 }
 
