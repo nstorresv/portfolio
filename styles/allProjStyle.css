@@ -22,7 +22,7 @@
     padding: 2rem;
     gap: 1.5rem;
     margin-top: 2rem;
-    height: 45rem;
+    height: auto;
     /*border: 0.5px solid rgba(231,229,228,0.15);*/
   }
 
