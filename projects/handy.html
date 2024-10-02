@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/projectPage.css">
+    <link rel="stylesheet" href="../styles/handy.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../portfolio-logo.ico" />
+     <!--fonts-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Space+Mono&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Mate:ital@0;1&family=Roboto+Slab:wght@100..900&family=Space+Mono&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Mate:ital@0;1&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Slab:wght@100..900&family=Space+Mono&display=swap" rel="stylesheet">
+      
+    <title>Handy - App</title>
+</head>
+<body>
+    <div class="allCont">
+<header>
+    <nav class="topMenu">
+        <ol>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../contactMe.html">Contact Me</a></li>
+            <li style="border-bottom: 1px solid var(--White, #E7E5E4);"><a href="../all_projects.html">Projects</a></li>
+        </ol>
+    </nav>
+</header>
+<main class="projectMain">
+<h1>Handy - App</h1>
+<div class="goBack">
+    <a href="../all_projects.html">
+        <img src="../img/arrowBack.png" alt="arrow point left">
+    </a>
+</div>
+<div class="contactMe">
+    <a href="../contactMe.html">
+        <div> 
+            <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+
+    <dotlottie-player src="https://lottie.host/7c7cea51-fbee-4f21-be16-8cfb1168ecbd/Ofs1OLfKRj.json" background="transparent" speed="1" style="width: 3rem; height: 3rem; margin: auto;" loop autoplay></dotlottie-player>
+        </div> 
+   </a>
+   </div>
+<div class="sectionWrap">
+<ul class="sectionsHor">
+    <li><a href="#definition">Definition</a></li>
+    <li><a href="#research">Research</a></li>
+    <li><a href="#design">Design</a></li>
+    <li><a href="#prototype">Final Product</a></li>
+</ul>
+</div>
+<p class="intro">This app is a personal project, unafiliated with any employer</p>
+<section id="definition">
+<h2>Definition</h2>
+<p>  <strong>What?</strong> </p>
+<p>Handy is a platform for offering and hiring home repair and maintenance services based in Colombia
+</p>
+<p>  <strong style="margin-left:3.5rem">How?</strong> </p>
+<p>It is a user driven platform where people can advertise their expertise and hire other experts. Clients search for the service they need and then pick from a list of contractors. 
+</p>
+<p>  <strong style="margin-left:5.5rem">Who?</strong> </p>
+<p>The intended users are adults between 30 and 50 years old, who are either full time workers or caretakers and struggle to keep up with chores, as well as do maintenance tasks in their home. 
+</p>
+<p>  <strong style="margin-left:7.5rem">Why?</strong> </p>
+<p>There is a growing market of apps that manage and facilitate freelance employment, locally, there is a lack of apps specifically designed for cleaning and maintenance services. 
+</p>
+</section>
+<section id="research">
+<h2>Research</h2>
+<!--HEURISTIC-->
+<section>
+  <h3>Heuristic Analysis</h3>
+  <p>The main local competitor for the app was selected for a heuristic analysis, with the goal of evaluating the usability 
+  and user experience in order to propose relevant improvements and point out possible strengths. 
+  The analysis was based on Nielsen's 10 usability heuristics, which are a set of guidelines that help identify 
+  common usability problems. 
+  </p>
+  <div class="heuristicList">
+  <div class="textImg">
+  <img src="../img/search_for_services.svg" alt="magnifying glass on top od construction helmet" >
+  
+    <p><b>1. Searching for Services: </b>We found that the categorization of services could be overtly complex, and not very accurate to a real world interaction, confusing the user and adding unnecessary steps.
+    </p>
+  </div>
+  <div class="textImg">
+    <img src="../img/hiring_contractor.svg" alt="handshake" >
+  
+    <p><b>2. Choosing a contractor:</b> In this step  we found that it was important to earn the user’s trust by giving them ample information on the available contractors in order to match the screening that would happen in a real life situation regarding experience and expertise. </p>
+  </div>
+  <div class="textImg">
+    <img src="../img/asking_service.svg" alt="leaking pipe" >
+  
+    <p><b>3. Asking for a service:</b> While the form employes in the app allowed the users to closely monitor the system status
+       and thus ensure all relevant information was exchanged, we found that it is also important to give the user control about
+       which information they share at what stage of the interaction. </p>
+   </div>
+    </div>
+  <h3>Benchmark</h3>
+  <p>For this analysis we selected apps with the same functionality that operate in other regions as well as an app with  a similar functionality oriented towards doctors and medical care. This industry was chosen since it can face challenges regarding building trust between users and potential providers. We also went through the user reviews of these apps. 
+  </p>
+  <p><b>1. Interface:</b><br>
+  - Messaging: While all of the apps analyzed had a direct messaging feature, we found that communication was not prioritized and user often faced misunderstandings regarding the expertise of the contractors and the services required.<br>
+  - Previous hires: All of the apps incentivize the user to communicate with previously hired contractors,  although in some cases the information was not organized in a dedicated list that was easy to find.
+</p>
+<p><b>2. Searching and Service Lists:</b> <br>
+  All of the apps struggled to keep the categories easy to use as well as flexible enough for users to understand, while the search bar provided a more intuitive experience.
+</p>
+<img src="../img/categoriesScreenshot.png" alt="list of detailed categories">
+
+
+<p><b>3. Profile</b><br>
+- Reviews: Those apps with an overall score out of five, as well as a comment section, provided needed information for users who might otherwise struggle to trust the contractor <br>
+- Pictures: There was a necessity for allowing pictures in the requests and profile, given the nature of the services provided. </p>
+</section>
+<!--QUESTIONNAIRE-->
+<section>
+  <h3>Questionnaire</h3>
+  <p>A questionnaire was designed in order to find out what prevents users from finding a contractor through an app or other online tool, and how likely users are to find contractors through recommendations from friends and acquaintances.</p>
+  <p><b>1. Familiarity</b></p>
+  <div class="textImg">
+    <img src="../img/graph83.png" alt="circle graph displaying 83%">
+    <div class="text"><p> 83% of users indicated that they found the contractor by recommendation or because they already knew him, thus we found most users prefer to feel close to the contractor, either because someone recommended him or because he is a friend.
+    </p></div>
+  </div>
+  <p><b>2. Responsibility</b></p>
+  <div class="textImg">
+    <img src="../img/graph51.png" alt="circle graph displaying 51%">
+    <div class="text"><p> More than 50% of users said they made recommendations in both cases, however many of them also feared being responsible if something went wrong, especially if the recommendation was given to a friend or family member.</p>
+    </div>
+    </div>
+</section>
+<!--PERSONAS-->
+<section>
+    <h3>Personas</h3>
+    <p> Based on the data gathered, these are some of the personas created </p>
+    <div class="personas">
+      <div class="accord">
+        <div class="boxTitle">
+          <img src="../img/personaAndrew.png" alt="midde aged man">
+          <div>
+            <h4> Andrew </h4>
+            <p>Age: 33 <br>
+            Profession: Civil Engineer <br>
+            Status: Single</p>
+          </div>
+          
+            <p class="captions">"I need to hire someone to help me with household chores, but I want it to be a reliable person. I am very busy and sometimes I have to travel for work, so the person needs to be flexible with schedules."
+            </p>
+          
+          
+        </div>
+      <input type="checkbox" id="boxDrop"/>
+      <label class="btn" for="boxDrop">
+      <div class="box">
+            <div class="boxHead">
+            <p><b> Concerns </b> </p>
+            <img src="../img/dropdownArrow.png" class="arrowDrop">
+          </div>
+      
+        <div class="boxContent">
+          <ul>
+            <li>
+              Trustworthyness of the person hired
+            </li>
+            <li>
+              The job not being completed properly
+
+            </li>
+            </ul>
+        </div> 
+       </div>
+      </label>
+       <input type="checkbox" id="boxDrop2"/>
+      <label class="btn" for="boxDrop2">
+      <div class="box">
+            <div class="boxHead">
+              <p><b> Objectives </b> </p>
+            <img src="../img/dropdownArrow.png" class="arrowDrop">
+          </div>
+      
+        <div class="boxContent">
+          <ul>
+            <li>
+              Hire someone to clean his house every month
+            </li>
+            <li>
+              Choosing a highly qualified contractor
+            </li>
+            <li>
+              Flexibility to change arrangements
+            </li>
+          </ul>
+        </div> 
+       </div>
+      </label>
+      <input type="checkbox" id="boxDrop3"/>
+      <label class="btn" for="boxDrop3">
+      <div class="box">
+            <div class="boxHead">
+            <p><b> Interest </b></p>
+            <img src="../img/dropdownArrow.png" class="arrowDrop">
+          </div>
+      
+        <div class="boxContent">
+          <ul>
+            <li>Saving Time</li>
+            <li>High vaierty of contractors to choose from</li>
+            <li>Detailed information can be accesed before purchase</li>
+          </ul>
+        </div> 
+       </div>
+      </label>
+      </div>
+      <div class="accord">
+        <div class="boxTitle">
+          <img src="../img/personaMaria.png" alt="midde aged woman">
+          <div>
+            <h4>Maria </h4>
+            <p>Age: 40 <br>
+            Profession: Teacher <br>
+            Status: Divorced</p>
+          </div>       
+            <p class="captions">"I need someone who can do this repair for me. I work during the week so it can only be done on Saturday or Sunday. The most important thing is that it is done well, but if it is too expensive I might not be able to pay for it."
+            </p>         
+        </div>
+      <input type="checkbox" id="boxDrop4"/>
+      <label class="btn" for="boxDrop4">
+      <div class="box">
+            <div class="boxHead">
+            <p><b> Concerns </b> </p>
+            <img src="../img/dropdownArrow.png" class="arrowDrop">
+          </div>
+      
+        <div class="boxContent">
+          <ul>
+            <li> Letting a stranger into her home with her children  </li>
+            <li>  High, non-negotiable costs </li>
+            <li>Time availability of the contractor</li>
+            <li>Skill and expertise</li>
+            </ul>
+        </div> 
+       </div>
+      </label>
+       <input type="checkbox" id="boxDrop5"/>
+      <label class="btn" for="boxDrop5">
+      <div class="box">
+            <div class="boxHead">
+              <p><b> Objectives </b> </p>
+            <img src="../img/dropdownArrow.png" class="arrowDrop">
+          </div>
+      
+        <div class="boxContent">
+          <ul>
+            <li>
+              Find someone who can fix a leaky pipe
+            </li>
+            <li>
+              Learning about the experience of previous clients 
+            </li>
+            <li>
+              Finding a balance between experience and fair prices
+            </li>
+          </ul>
+        </div> 
+       </div>
+      </label>
+      <input type="checkbox" id="boxDrop6"/>
+      <label class="btn" for="boxDrop6">
+      <div class="box">
+            <div class="boxHead">
+            <p><b> Interest </b></p>
+            <img src="../img/dropdownArrow.png" class="arrowDrop">
+          </div>
+      
+        <div class="boxContent">
+          <ul>
+            <li>Being able to talk to the contractor directly and negotiate costs</li>
+            <li>Knowing other clients' experiences</li>
+            <li>Finding a person who can adjust to her schedule</li>
+          </ul>
+        </div> 
+       </div>
+      </label>
+      </div>
+      <div class="accord">
+        <div class="boxTitle">
+          <img src="../img/personaCarlos.png" alt="adult man">
+          <div>
+            <h4>Carlos </h4>
+            <p>Age: 44 <br>
+            Profession: Carpenter <br>
+            Status: Married</p>
+          </div>       
+            <p class="captions">"I have 10 years of experience in carpentry and I work in my own workshop, but only people in the neighborhood know me. I want to reach more people in this city and increase my income."
+            </p>         
+        </div>
+      <input type="checkbox" id="boxDrop7"/>
+      <label class="btn" for="boxDrop7">
+      <div class="box">
+            <div class="boxHead">
+            <p><b> Concerns </b> </p>
+            <img src="../img/dropdownArrow.png" class="arrowDrop">
+          </div>
+      
+        <div class="boxContent">
+          <ul>
+            <li>Having misunderstandings and payment issues with clients </li>
+            <li>Earning clients' trust regarding the quality of his work </li>
+            <li>Time spent using the app </li>
+          </ul>
+        </div> 
+       </div>
+      </label>
+       <input type="checkbox" id="boxDrop8"/>
+      <label class="btn" for="boxDrop8">
+      <div class="box">
+            <div class="boxHead">
+              <p><b> Objectives </b> </p>
+            <img src="../img/dropdownArrow.png" class="arrowDrop">
+          </div>
+      
+        <div class="boxContent">
+          <ul>
+            <li>
+              Reach a greater number of clients in his city to offer his service
+            </li>
+            <li>
+              Showing examples of his work to potential clients 
+            </li>
+            <li>
+              Talk to clients in order to get all of the information needed
+            </li>
+          </ul>
+        </div> 
+       </div>
+      </label>
+      <input type="checkbox" id="boxDrop9"/>
+      <label class="btn" for="boxDrop9">
+      <div class="box">
+            <div class="boxHead">
+            <p><b> Interest </b></p>
+            <img src="../img/dropdownArrow.png" class="arrowDrop">
+          </div>
+      
+        <div class="boxContent">
+          <ul>
+            <li>Demonstrating the quality of his work to new clients through a detailed profile page</li>
+            <li>Talking to potential clients himself and arranging all the details before the transaction is completed</li>
+            
+          </ul>
+        </div> 
+       </div>
+      </label>
+      </div>
+    </div>
+  </section>>
+</section>
+<section id="design">
+  <h2>Design</h2>
+  <section>
+    <h3>User Journey</h3>
+    <p>The following user journey was designed for Maria, the teacher, who needs to fix a leaky pipe.</p>
+    <div class="userJourney">
+      <img src="../img/userJourney1.png" alt="a graph displaying the first steps of the user journey">
+      <img src="../img/userJourney2.png" alt="a graph displaying the contacting phase of the user journey">
+      <img src="../img/userJourney3.png" alt="a graph displaying the final steps of the user journey">
+
+    </div>
+    <br><br>
+  </section>
+  <section>
+    <h3>Wireframes</h3>
+    <p>These are some of the inital designs created for the app. For the home screen it was decided that later iterations should have a clearer space for the call to action. Meanwhile, different arrangements for search 
+      result boxes were studied in order to get to the final positioning.
+    </p>
+    <img src="../img/wireframes.png" class="wires" alt="wireframes of the app">
+
+  </section>
+  <section>
+    <h3> Initial look and feel </h3>
+    <p>A design system was established, including principles, foundations and components of the app. Upon feedback, the color pallete of the app 
+      was modified slightly as shown bellow:
+    </p>
+    <div class="lookFeel">
+      <div>
+        <img src="../img/handyOldUI.png" alt="sceeenshot of app">
+        <figcaption><p>Initial color scheme</p></figcaption>
+      </div>
+      <div>
+        <img src="../img/handyNewUI.png" title="Final color scheme" alt="sceeenshot of app">
+        <figcaption><p>Final color scheme</p></figcaption>
+      </div>
+    </div>
+  </section>
+
+</section>
+<section id="prototype">
+  <h2>High Fidelity Prototype</h2>
+  <p>The following is an interactive high-fidelity prototype of the app.</p>
+  <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="650" src="https://embed.figma.com/proto/NYrQAtVkC6lowi2xhCaV3K/prototipo-Handy?node-id=1-953&node-type=frame&scaling=scale-down&content-scaling=fixed&page-id=1%3A14&starting-point-node-id=1%3A1020&embed-host=share" allowfullscreen></iframe>
+</section>
+<!-- Other Projects -->
+<section id="otherProj">
+  <h2>Projects</h2>
+    <div class="cardContainer">
+      <a href="../projects/amazon_gifts.html">
+        <div class="card">
+          <div class="cardImg">
+            <img src="../img/thumbs/amazon.png" alt="computer with image of amazon and gift" style="max-width: 200%;">
+          </div>
+          <div class="cardText">
+            <h4> Amazon Gifts Redesign</h4>
+            <ul>
+              <li>UX Research</li>
+              <li>User Testing</li>
+              <li>UI Redesign</li>
+            </ul>
+          </div>
+        </div>
+      </a>
+      <a href="../projects/orchids_banner.html">
+        <div class="card">
+          <div class="cardImg">
+            <img src="../img/thumbs/orchidsBanner.png" alt="poster of project" style="max-width: 200%;">
+          </div>
+          <div class="cardText">
+            <h4>Banner for Research Project</h4>
+            <ul>
+              <li>Graphic Design</li>
+              <li>Adobe Photoshop</li>                       
+            </ul>
+            
+          </div>
+        </div>
+      </a>
+      <a href="../projects/zenith.html">
+        <div class="card">
+          <div class="cardImg">
+            <img src="../img/thumbs/Zenith.png" alt="phone with image of app">
+          </div>
+          <div class="cardText">
+            <h4> Zenith Design Guide and App</h4>
+            <ul>
+              <li>Design Guide</li>
+              <li>High-fidelity Prototype</li>
+              <li>Promotional Video</li>
+            </ul>
+          </div>
+        </div>
+      </a>
+      <a href="../projects/mealstats.html">
+        <div class="card">
+          <div class="cardImg">
+            <img src="../img/thumbs/mealstats.png" alt="apple watch with image of app">
+          </div>
+          <div class="cardText">
+            <h4> MealStats - WatchOS</h4>
+            <ul>
+              <li>Task Flow</li>
+              <li>Low-fidelity Prototype</li>
+              <li>High-fidelity Prototype</li>
+            </ul>
+          </div>
+        </div>
+      </a>
+      <a href="../projects/handy.html">
+        <div class="card">
+          <div class="cardImg">
+            <img src="../img/thumbs/handy.png" alt="phone with image of app">
+          </div>
+          <div class="cardText">
+            <h4> App Handy</h4>
+            <ul>
+              <li>UX Research</li>
+              <li>UI Design</li>
+              <li>High-fidelity Prototype</li>
+            </ul>
+        </div>
+        </div>
+      </a>
+    </div>
+</section>
+</main>
+</div>
+<footer>
+    <div class="footContact">
+      <a href="contactMe.html"><p>Contact Me</p></a>
+      <a href="mailto:nstorresv@gmail.com" target="_blank"><p class="captions">nstorresv@gmail.com</p></a>
+      <a href="https://wa.link/n5jept" target="_blank"><p class="captions">Whatsapp</p></a>
+      <a href="https://www.linkedin.com/in/natalia-torres-valencia" target="_blank"><p class="captions">LinkedIn</p></a>
+    </div>
+    <div class="footContact">
+      <p>About</p>
+      <a href="#"><p class="captions">Site Map</p></a>
+      <a href="CV_NataliaTorres.pdf" target="_blank"><p class="captions">Get CV</p></a>
+    </div>
+    <div class="footName">
+      <p class="captions"><span>&copy;</span> Natalia Torres</p>
+    </div>
+  </footer>
+
+</body>
