@@ -80,6 +80,7 @@ a {
     position: relative;
     flex-direction: column;
     height: 80vh;
+    min-height: 30rem;
     
   
   }
@@ -144,6 +145,7 @@ a {
       /* shadow */
       box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.25);
       height: 75vh;
+      min-height: 30rem;
       width: 85vw;
       margin: auto;
       background-color: var(--Gray-60, rgba(231, 229, 228, 0.05)); 
