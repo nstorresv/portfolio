@@ -168,7 +168,7 @@ a {
       box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.25);
   }
 .slideAll .slideIn .slideImg img {
-    height: 20rem;
+    height: 30rem;
 }
   
   .slideIn {
@@ -199,7 +199,7 @@ a {
     }
 
     .slideImg {
-      max-width: 40%;
+      max-width: 50rem;
     }
     .cardContainer {
       width: 100%
