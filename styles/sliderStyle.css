@@ -169,6 +169,7 @@ a {
   }
 .slideAll .slideIn .slideImg img {
     height: 30rem;
+    max-height: 70%
 }
   
   .slideIn {
@@ -214,8 +215,8 @@ a {
     }
     
     .slideImg {
-      width: 95%;
-      height: 95%;
+      width: 85%;
+      height: 40%;
     }
     
     .slideImg img {
