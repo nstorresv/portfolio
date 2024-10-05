@@ -73,7 +73,7 @@
     scrollbar-width: none;
 }
 
-.sectionsHor ::-webkit-scrollbar {
+.sectionsHor::-webkit-scrollbar {
     display: none;
 }
 
