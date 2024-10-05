@@ -75,6 +75,9 @@
 
 .sectionsHor::-webkit-scrollbar {
     display: none;
+    -webkit-appearance: none;
+    height:0;
+    width:0;
 }
 
 .sectionsHor li {
